@@ -15,7 +15,7 @@ body {
   border: 1px solid black;
   border-radius: 5%;
   margin: auto;
-  padding: 2px;
+  padding: 0.2rem;
 }
 .flex-container {
   display: flex;
@@ -26,13 +26,14 @@ body {
 
 #display {
   display: flex;
-  min-width: 8rem;
+  min-width: 7rem;
   min-height: 1.5rem;
   margin: 0.5rem;
+  padding-right: 0.5rem;
   background-color: var(--display-bg-color);
   border: 1px solid black;
   border-radius: 5%;
-  justify-content: center;
+  justify-content: right;
   align-items: center;
 }
 

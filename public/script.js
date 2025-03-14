@@ -1,9 +1,12 @@
-let calcDisplay=document.getElementById("display")
+const calcDisplay = document.getElementById("display");
+const firstInput = []
+const secondInput = []
+const resultInput = []
 
-function safado() {
-    alert("safadomon")
+function clearDisplay() {
+    calcDisplay.innerHTML = ""
 }
 
-function displayUpdater() {
-    calcDisplay("")
+function addInputs() {
+    
 }
